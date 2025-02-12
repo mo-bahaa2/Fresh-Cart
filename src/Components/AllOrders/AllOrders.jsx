@@ -21,6 +21,8 @@ export default function Allorders() {
         // cacheTime: Infinity, 
     });
 
+    console.log(data);
+
     return<>
             {isLoading ? 
                 <Spinner />
