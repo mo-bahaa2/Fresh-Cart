@@ -15,9 +15,9 @@ export default function Allorders() {
     }
 
     let { data: orders, isLoading } = useQuery({
-        queryKey: ["allorders"],
+        queryKey: ["allordershhhh"],
         queryFn: getAllorders,
-        // staleTime: Infinity,  
+        // staleTime: Infinity, 
         // cacheTime: Infinity, 
     });
 
